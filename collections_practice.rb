@@ -25,8 +25,8 @@ def count_elements(collection)
 end
 
 def merge_data(keys, data)
-  keys.collect do |hash| 
-    hash.merge(data[0][hash[:first_name]])
+  keys.collect do |x| 
+    x.merge(data[0][x[:first_name]])
   end
 end
 
