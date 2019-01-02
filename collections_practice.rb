@@ -43,6 +43,7 @@ def organize_schools(schools)
     if organized_schools[value] == nil
       organized_schools[value] = school
     else organized_schools[value] << school
+      end
     end
   end
   organized_schools
