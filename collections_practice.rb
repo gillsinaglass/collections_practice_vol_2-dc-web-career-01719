@@ -37,7 +37,7 @@ def find_cool(identifier)
 end
 
 def organize_schools(schools)
-  organized_schools = Hash.new
+  organized_schools = {}
   schools.each do |school, location|
     if organized_schools[location] == nil
       organized_schools[location] = school
