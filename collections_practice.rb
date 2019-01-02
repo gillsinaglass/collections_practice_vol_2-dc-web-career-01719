@@ -5,7 +5,24 @@ def begins_with_r(collection)
 end
 
 def contain_a(collection)
-  collection.select do |x|
-    x.include?("a")
-  end
+  collection.select {|x| x.include?("a")}
 end
+
+def first_wa(collection)
+  collection.find {|x| x[0..1] == "wa"}
+end
+
+def remove_non_strings(collection)
+  collection.keep_if {|obj| obj.is_a? String} 
+end
+
+def count_elements(collection)
+    collection.each do |x|
+        count = collection.count(x)
+        collection.uniq!
+        x[:count] = count
+    end
+end
+
+def merge_data
+  
