@@ -35,4 +35,6 @@ def find_cool(identifier)
     x[:temperature] == "cool"
   end
 end
+
+def organize_schools(schools)  
   
