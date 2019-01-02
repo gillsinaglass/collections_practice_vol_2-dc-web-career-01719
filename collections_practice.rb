@@ -36,7 +36,8 @@ def find_cool(identifier)
   end
 end
 
-def organize_schools(school, location)
+def organize_schools(schools)
   organized_schools = Hash.new
-  if school.each do |
+  if school.each do |school, location|
+    
   
