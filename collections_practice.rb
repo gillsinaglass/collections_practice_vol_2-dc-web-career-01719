@@ -29,4 +29,7 @@ def merge_data(keys, data)
     hash.merge(data[0][hash[:first_name]])
   end
 end
+
+def find_cool
+  
   
