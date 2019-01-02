@@ -36,5 +36,6 @@ def find_cool(identifier)
   end
 end
 
-def organize_schools(schools)  
+def organize_schools(school, location)
+  
   
