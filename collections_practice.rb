@@ -26,7 +26,7 @@ end
 
 def merge_data(keys, data)
   keys.collect do |hash| 
-    hash.merge(data[0][hash[:first_name]])}
+    hash.merge(data[0][hash[:first_name]])
   end
 end
   
