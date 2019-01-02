@@ -24,5 +24,7 @@ def count_elements(collection)
     end
 end
 
-
+def merge_data(colection,collection1)
+  collection.zip(collection1)
+end
   
