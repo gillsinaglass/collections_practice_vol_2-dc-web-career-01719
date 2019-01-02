@@ -31,5 +31,8 @@ def merge_data(keys, data)
 end
 
 def find_cool(identifier)
-  identifier.find_all
+  identifier.find_all do |x|
+    x[:temperature] == "cool"
+  end
+end
   
