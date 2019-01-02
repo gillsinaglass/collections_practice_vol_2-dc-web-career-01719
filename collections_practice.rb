@@ -38,6 +38,7 @@ end
 
 def organize_schools(schools)
   organized_schools = Hash.new
-  if school.each do |school, location|
+  if schools.each do |school, location|
+    
     
   
