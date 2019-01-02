@@ -30,6 +30,6 @@ def merge_data(keys, data)
   end
 end
 
-def find_cool
-  
+def find_cool(identifier)
+  identifier.find_all
   
