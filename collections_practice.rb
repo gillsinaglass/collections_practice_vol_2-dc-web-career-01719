@@ -41,7 +41,7 @@ def organize_schools(schools)
   schools.each do |school, location|
     if organized_schools[location] == nil
       organized_schools[location] = school
-    else organized_schools << school
+    else organized_schools[location] << school
     end
   end
   organized_schools
