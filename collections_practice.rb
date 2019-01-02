@@ -39,10 +39,10 @@ end
 def organize_schools(schools)
   organized_schools = {}
   schools.each do |school, location|
-    location.each do 
-    if organized_schools[location] == nil
-      organized_schools[location] = school
-    else organized_schools[location] << school
+    location.each do |key, value|
+    if organized_schools[value] == nil
+      organized_schools[value] = school
+    else organized_schools[value] << school
     end
   end
   organized_schools
